@@ -15,7 +15,8 @@ from public.cafe_sales;
 
 -- 3. How many transactions were recorded?
 
-select count(*) as total_transactions from public.cafe_sales;
+select count(*) as total_transactions 
+from public.cafe_sales;
 
 -- 4. What is the total quantity of items sold?
 
@@ -104,3 +105,7 @@ select location, round(avg(revenue),2) as avg_transaction
 from public.cafe_sales
 where location <> 'Unknown'
 group by location;
+
+
+
+

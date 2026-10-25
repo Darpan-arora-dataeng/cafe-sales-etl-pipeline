@@ -1,4 +1,4 @@
-# Cafe Sales ETL Pipeline using Python and PostgreSQL
+# Cafe Sales ETL Pipeline and Power BI Dashboard
 
 ## Project Overview
 
